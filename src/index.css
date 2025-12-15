@@ -1,0 +1,85 @@
+*,
+body,
+html {
+  font-family: "Inter", sans-serif;
+  font-weight: var(--weight-regular);
+
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* VARIABLES */
+  --neutral-0: rgba(255, 255, 255, 1);
+  --neutral-50: rgba(245, 247, 250, 1);
+  --neutral-100: rgba(245, 247, 250, 1);
+  --neutral-200: rgba(224, 228, 234, 1);
+  --neutral-300: rgba(202, 207, 216, 1);
+  --neutral-400: rgba(153, 160, 174, 1);
+  --neutral-500: rgba(113, 119, 132, 1);
+  --neutral-600: rgba(82, 88, 102, 1);
+  --neutral-700: rgba(43, 48, 59, 1);
+  --neutral-800: rgba(35, 37, 48, 1);
+  --neutral-900: rgba(25, 27, 37, 1);
+  --neutral-950: rgba(14, 18, 27, 1);
+
+  --blue-50: rgba(235, 241, 255, 1);
+  --blue-500: rgba(51, 92, 255, 1);
+  --blue-700: rgba(37, 71, 208, 1);
+
+  --green-100: rgba(209, 251, 233, 1);
+  --green-500: rgba(33, 193, 107, 1);
+
+  --red-100: rgba(255, 213, 216, 1);
+  --red-500: rgba(251, 55, 72, 1);
+
+  --font-size-1: 0.75rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 1rem;
+  --font-size-4: 1.25rem;
+  --font-size-5: 1.5rem;
+  --font-size-6: 2.5rem;
+  --font-size-7: 3rem;
+
+  --weight-bold: 700;
+  --weight-semibold: 600;
+  --weight-medium: 500;
+  --weight-regular: 400;
+}
+
+.sans-bold-preset-1 {
+  font-weight: var(--weight-bold);
+  font-size: var(--font-size-5);
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+.sans-bold-preset-2 {
+  font-size: var(--font-size-4);
+  font-weight: var(--weight-bold);
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+.sans-semibold-preset-1 {
+  font-size: var(--font-size-3);
+  font-weight: var(--weight-semibold);
+  line-height: 120%;
+  letter-spacing: -0.3px;
+}
+.sans-medium-preset-1 {
+  font-size: var(--font-size-2);
+  font-weight: var(--weight-medium);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+.sans-regular-preset-1 {
+  font-size: var(--font-size-2);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+.sans-regular-preset-2 {
+  font-size: var(--font-size-1);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
