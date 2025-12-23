@@ -10,6 +10,8 @@ html {
 
 :root {
   /* VARIABLES */
+
+  /* COLORS NEUTRALS */
   --neutral-0: rgba(255, 255, 255, 1);
   --neutral-50: rgba(245, 247, 250, 1);
   --neutral-100: rgba(245, 247, 250, 1);
@@ -23,16 +25,20 @@ html {
   --neutral-900: rgba(25, 27, 37, 1);
   --neutral-950: rgba(14, 18, 27, 1);
 
+  /* BLUES */
   --blue-50: rgba(235, 241, 255, 1);
   --blue-500: rgba(51, 92, 255, 1);
   --blue-700: rgba(37, 71, 208, 1);
 
+  /* GREENS */
   --green-100: rgba(209, 251, 233, 1);
   --green-500: rgba(33, 193, 107, 1);
 
+  /* REDS */
   --red-100: rgba(255, 213, 216, 1);
   --red-500: rgba(251, 55, 72, 1);
 
+  /* FONT SIZES */
   --font-size-1: 0.75rem;
   --font-size-2: 0.875rem;
   --font-size-3: 1rem;
@@ -41,12 +47,42 @@ html {
   --font-size-6: 2.5rem;
   --font-size-7: 3rem;
 
+  /* FONT WEIGHTS */
   --weight-bold: 700;
   --weight-semibold: 600;
   --weight-medium: 500;
   --weight-regular: 400;
+
+  /* SPACINGS */
+  --spacing-0: 0;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+
+  /* RADIUS */
+  --radius-0: 0;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 999px;
 }
 
+/* SANS SERIF */
 .sans-bold-preset-1 {
   font-weight: var(--weight-bold);
   font-size: var(--font-size-5);
@@ -82,4 +118,100 @@ html {
   font-weight: var(--weight-regular);
   line-height: 120%;
   letter-spacing: -0.2px;
+}
+
+/* SERIF */
+.serif-bold-preset-1 {
+  font-size: var(--font-size-5);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+.serif-bold-preset-2 {
+  font-size: var(--font-size-4);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+.serif-semi-preset-1 {
+  font-size: var(--font-size-5);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.3px;
+}
+.serif-medium-preset-1 {
+  font-size: var(--font-size-2);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+.serif-regular-preset-1 {
+  font-size: var(--font-size-2);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+.serif-regular-preset-2 {
+  font-size: var(--font-size-1);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+
+/* MONOSPACE */
+.mono-bold-preset-1 {
+  font-size: var(--font-size-5);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+.mono-bold-preset-2 {
+  font-size: var(--font-size-4);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.5px;
+}
+.mono-semi-preset-1 {
+  font-size: var(--font-size-3);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.3px;
+}
+.mono-medium-preset-1 {
+  font-size: var(--font-size-2);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+.mono-regular-preset-1 {
+  font-size: var(--font-size-2);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+.mono-regular-preset-2 {
+  font-size: var(--font-size-1);
+  font-weight: var(--weight-regular);
+  line-height: 120%;
+  letter-spacing: -0.2px;
+}
+
+/* SHADOWS */
+.small-shadow {
+  /* TODO
+    x 0
+    y 4
+    blur 6
+    spread 0
+    color F0F0F0 60%
+  */
+}
+.large-shadow {
+  /* TODO
+    x 0
+    y 8
+    blur 12
+    spread 0
+    color F0F0F0 60%
+  */
 }
